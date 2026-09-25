@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="LUMIÈRE ESTATES — Premium luxury villas and architectural masterpieces curated for the discerning few." />
+  <title> Premium Luxury AM hotel</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Jost:wght@300;400;500;600&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+
+  <!-- ═══════════════ NAVBAR ═══════════════ -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <span class="logo-mark"><img src="assets/images/logo2.png" alt=""></span>AM
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="about.html">About</a></li>
+        <li><a href="rooms.html">Rooms</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <a href="booking.html" class="nav-cta">Book Room</a>
+      <button class="hamburger" id="hamburger" aria-label="">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ═══════════════ HERO ═══════════════ -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <!-- Background slider: stacked images (only one visible via .active) -->
+      <img src="assets/images/front3.jpeg" alt="Premium Room" class="hero-img bg-slide" />
+      <img src="https://pix10.agoda.net/hotelImages/1198438/-1/4308ecd2620c1f703171cba152330f07.jpg?ca=8&ce=1&s=1920x" alt="Standard Room" class="hero-img bg-slide" />
+      <img src="https://amrit-manthan.hotels-rajasthan.com/data/Pics/OriginalPhoto/16017/1601709/1601709603/hotel-amrit-manthan-chittorgarh-pic-2.JPEG" alt="Room Interior" class="hero-img bg-slide" />
+      <img src="https://images.trvl-media.com/lodging/20000000/19240000/19234700/19234637/11d510dd.jpg?impolicy=resizecrop&rw=1920&rh=1080&ra=fill" alt="Hotel Room View" class="hero-img bg-slide" />
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-eyebrow reveal">Curated for the discerning few</p>
+      <h1 class="hero-title reveal">
+        Premium<br /><em>Luxury Hotel</em>
+      </h1>
+      <p class="hero-subtitle reveal">Architectural masterpieces where design meets serenity. Discover residences that
+        redefine the art of living.</p>
+      <div class="hero-cta reveal">
+        <a href="rooms.html" class="btn btn-light">Explore Villas</a>
+        <a href="contact.html" class="btn btn-outline-light">Contact Us</a>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <span></span>
+    </div>
+    <!-- Floating glass stat cards -->
+    <div class="hero-stats glass">
+      <div class="hero-stat">
+        <strong>70+</strong>
+        <span>Rooms</span>
+      </div>
+      <div class="hero-stat-divider"></div>
+      <div class="hero-stat">
+        <strong>08</strong>
+        <span>SuitesElegantly</span>
+      </div>
+      <div class="hero-stat-divider"></div>
+      <div class="hero-stat">
+        <strong>98%</strong>
+        <span>Satisfaction</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ ABOUT ═══════════════ -->
+  <section class="about section-pad" id="about">
+    <div class="container about-grid">
+      <div class="about-images reveal-left">
+        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/98/69/8a/hotel-amrit-manthan.jpg?w=800&h=600&s=1" alt="Hotel Room"
+          class="about-img-main" />
+        <div class="about-img-accent glass">
+          <img src="https://images.trvl-media.com/lodging/20000000/19240000/19234700/19234637/11d510dd.jpg?impolicy=resizecrop&rw=400&rh=400&ra=fill" alt="Room Interior" />
+          <div class="about-badge">
+            <i class="fa-solid fa-award"></i>
+            <span>Premium Standard Room</span>
+          </div>
+        </div>
+      </div>
+      <div class="about-text reveal-right">
+        <p class="section-eyebrow">Where Comfort Meets Luxury</p>
+        <h2 class="section-title">We Craft Spaces<br /><em>Transparent & Swcure Booking</em></h2>
+        <p class="about-desc">For over 11 years, Amritmanthan has been at the forefront of providing guests with a luxurious and comfortable experience. Moving beyond ordinary stays, we offer you an exceptional ambiance and world-class amenities. Every single corner of our hotel has been carefully crafted with its prime location, modern design, and your ultimate comfort in mind.</p>
+        <ul class="about-pillars">
+          <li><i class="fa-solid fa-check"></i>Rooms</li>
+          <li><i class="fa-solid fa-check"></i>Bar </li>
+          <li><i class="fa-solid fa-check"></i>Swimming pool </li>
+          <li><i class="fa-solid fa-check"></i>Sarang Banquet </li>
+        </ul>
+        <a href="rooms.html" class="btn btn-dark">Book Room</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ FEATURED PROPERTIES ═══════════════ -->
+  <section class="properties section-pad bg-warm" id="properties">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">Hand-Selected</p>
+        <h2 class="section-title">Featured <em>Properties</em></h2>
+        <p class="section-sub">Explore our most coveted residences — each one a statement of extraordinary living.</p>
+      </div>
+      <div class="properties-grid">
+
+        <article class="property-card reveal">
+          <div class="card-img-wrap">
+            <img src="assets/images/STANDARD_room.jpeg" alt="Standard Room" />
+          </div>
+          <div class="card-body">
+            <div class="card-top">
+              <h3>Standard Room</h3>
+              
+            </div>
+            <p class="card-location"><i><br></i> </p>
+            <div class="card-specs">
+              <span><i class="fa-solid fa-bed"></i> 1 D.Bed</span>
+              <span><i class="fa-solid fa-ac"></i> AC</span>
+              <span><i class="fa-solid fa-expand"></i>2 armchair</span>
+            </div>
+            <a href="booking.html" class="btn btn-dark btn-sm">View Room</a>
+          </div>
+        </article>
+
+        <article class="property-card reveal">
+          <div class="card-img-wrap">
+            <img src="assets/images/premium_suit_room.jpeg" alt="Premium Suite Room" />
+          </div>
+          <div class="card-body">
+            <div class="card-top">
+              <h3>Premium Suite Room</h3>
+      
+            </div>
+            <p class="card-location"><i><br></i> </p>
+            <div class="card-specs">
+              <span><i class="fa-solid fa-bed"></i>1 D.Bed</span>
+              <span><i class="fa-solid fa-ac"></i> AC</span>
+              <span><i class="fa-solid fa-expand"></i> 2 Armchair</span>
+            </div>
+            <a href="booking.html" class="btn btn-dark btn-sm">View Room</a>
+          </div>
+        </article>
+
+        <article class="property-card reveal">
+          <div class="card-img-wrap">
+            <img src="assets/images/EXECUTIVE_ROOM.jpeg" alt="Executive Room" />
+          </div>
+          <div class="card-body">
+            <div class="card-top">
+              <h3>Executive Room</h3>
+      
+            </div>
+            <p class="card-location"><i><br></i></p>
+            <div class="card-specs">
+              <span><i class="fa-solid fa-bed"></i> 1 Bed</span>
+              <span><i class="fa-solid fa-ac"></i> AC</span>
+              <span><i class="fa-solid fa-expand"></i> 3 Armchair</span>
+            </div>
+            <a href="booking.html" class="btn btn-dark btn-sm">View Room</a>
+          </div>
+        </article>
+
+        <article class="property-card reveal">
+          <div class="card-img-wrap">
+            <img src="assets/images/SARANG_BANQUET.jpeg" alt="Sarang Banquet Hall" />
+            <span class="card-badge card-badge--sold">Exclusive</span>
+          </div>
+          <div class="card-body">
+            <div class="card-top">
+              <h3>Sarang Banquet</h3>
+            </div>
+            <p class="card-location"><i></i> </p>
+            <div class="card-specs">
+              <span><i></i> </span>
+              <span><i></i> </span>
+              <span><i></i> </span>
+            </div>
+            <a href="booking.html" class="btn btn-dark btn-sm">View Room</a>
+          </div>
+        </article>
+
+        <article class="property-card reveal">
+          <div class="card-img-wrap">
+            <img src="assets/images/restorent3.jpeg" alt="Restaurant" />
+          </div>
+          <div class="card-body">
+            <div class="card-top">
+              <h3>Restorent</h3>
+            </div>
+            <p class="card-location"><i class=""></i></p>
+            <div class="card-specs">
+              <span><i></i></span>
+              <span><i></i> </span>
+              <span><i></i> </span>
+            </div>
+            <a href="booking.html" class="btn btn-dark btn-sm">View Room</a>
+          </div>
+        </article>
+
+        <article class="property-card reveal">
+          <div class="card-img-wrap">
+            <img src="assets/images/restorent2.jpeg" alt="Bar" />
+            <span class="card-badge">Featured</span>
+          </div>
+          <div class="card-body">
+            <div class="card-top">
+              <h3>Bar</h3>
+            </div>
+            <div class="card-specs">
+              <span><i ></i></span>
+              <span><i ></i> </span>
+              <span><i ></i></span>
+            </div>
+            <a href="booking.html" class="btn btn-dark btn-sm">View Room</a>
+          </div>
+        </article>
+
+      </div>
+      <div class="center-cta reveal">
+        <a href="rooms.html" class="btn btn-dark">View All Properties</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ SERVICES ═══════════════ -->
+  <section class="services section-pad" id="services">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">Experience CHITTORGARH</p>
+        <h2 class="section-title">The  <em>Amrit Experience</em></h2>
+        <p class="section-sub">Discover our premium amenities and bespoke services tailored for your ultimate comfort.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card reveal">
+          <div class="service-icon"><i class="fa-solid fa-couch"></i></div>
+          <h3>Luxury Accommodation</h3>
+          <p>71 elegant rooms and 8 suits combining ethinc whith modern luxury. <br> Equipped with modern amenities,Gym access,32''LCD, Laundary,and Safe.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon"><i class="fa-solid fa-drafting-compass"></i></div>
+          <h3>Parizat Restaurant</h3>
+          <p>A whole new culinary dimension offering refned tastes for food lovers. <br>Memorable authentic meals,exquisite setup,and superb cuisine.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon"><i class="fa-solid fa-microchip"></i></div>
+          <h3>Banquets & Conferences</h3>
+          <p>perfect setting to lend prestige and panache to your corporate and personal events. <br>Business seminars, high-tech amenities, and meticulous attention to detail.
+          </p>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon"><i class="fa-solid fa-handshake"></i></div>
+          <h3>Royal Weddings</h3>
+          <p>turn your wedding into an exotic lifetime with a grand palatial backdrop.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon"><i class="fa-solid fa-leaf"></i></div>
+          <h3>Vibrant Bar</h3>
+          <p>A sleek, modern destination perfct for unwinding and socializing with friends. <br> craft beers,lively atmosphere and friendly staff.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon"><i class="fa-solid fa-shield-halved"></i></div>
+          <h3>Premium Facilities </h3>
+          <p>World -class hospitality services designed for business and lesure travelers. <br> <h6> SWIMMING POOL, TRAVEL DESK, CURRENCY EXCHANGE AND 24/7 ROOM SERVICE.</h6></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ GALLERY ═══════════════ -->
+  <section class="gallery section-pad bg-warm" id="gallery">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">Visual Journey</p>
+        <h2 class="section-title">Our <em>Gallery</em></h2>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item gallery-item--wide reveal">
+          <img src="assets/images/restorent.jpeg"
+            alt="Restaurant Dining Area" />
+        </div>
+        <div class="gallery-item reveal">
+          <img src="assets/images/WhatsApp Image 2026-05-23 at 12.38.00 PM.jpeg"
+            alt="Room Interior" />
+        </div>
+        <div class="gallery-item reveal">
+          <img src="assets/images/premium_suit_room.jpeg" alt="Premium Suite Room" />
+        </div>
+        <div class="gallery-item reveal">
+          <img src="assets/images/SARANG_BANQUET.jpeg" alt="Sarang Banquet Hall" />
+        </div>
+        <div class="gallery-item gallery-item--tall reveal">
+          <img src="assets/images/looby.jpeg" alt="Hotel Lobby" />
+        </div>
+        <div class="gallery-item reveal">
+          <img src="assets/images/room_gallary1.jpeg" alt="Guest Room" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ STATS ═══════════════ -->
+  <section class="stats-section" id="stats">
+    <div class="stats-bg">
+      <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/98/69/8a/hotel-amrit-manthan.jpg?w=1920&h=1080&s=1" alt="Standard Room Background" />
+      <div class="stats-overlay"></div>
+    </div>
+    <div class="container stats-grid">
+      <div class="stat-item reveal">
+        <strong class="counter" data-target="70">0</strong>
+        <span>Luxery Rooms</span>
+      </div>
+      <div class="stat-item reveal">
+        <strong class="counter" data-target="08">0</strong>
+        <span>Suites elegantly</span>
+      </div>
+      <div class="stat-item reveal">
+        <strong class="counter" data-target="840">0</strong>
+        <span>Happy Clients</span>
+      </div>
+      <div class="stat-item reveal">
+        <strong class="counter" data-target="11">0</strong>
+        <span>Years Experience</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ TESTIMONIALS ═══════════════ -->
+  <section class="testimonials section-pad" id="testimonials">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-eyebrow">Client Stories</p>
+        <h2 class="section-title">What Our <em>Clients Say</em></h2>
+      </div>
+      <div class="testimonials-grid">
+
+        <div class="testimonial-card reveal">
+          <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+              class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+          <p class="testimonial-text">"LUMIÈRE ESTATES redefined my expectations of luxury. The team's attention to
+            detail and personal touch made acquiring my Malibu villa an effortless, extraordinary experience."</p>
+          <div class="testimonial-author">
+            <div>
+              <strong>Jaswant Tak</strong>
+              <span>delhi</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card reveal">
+          <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+              class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+          <p class="testimonial-text">"From the first consultation to handing over the keys, every step was handled with
+            grace and professionalism. Our Santorini estate is beyond anything we imagined."</p>
+          <div class="testimonial-author">
+            <div>
+              <strong>Sophiya verma</strong>
+              <span>jaipur</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card reveal">
+          <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+              class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+          <p class="testimonial-text">"Investing through LUMIÈRE was the best financial decision I've ever made. Their
+            market insight and global reach are unmatched in the luxury segment."</p>
+          <div class="testimonial-author">
+            <div>
+              <strong>Harsh Gupta</strong>
+              <span>kota</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ CONTACT ═══════════════ -->
+  <section class="contact section-pad bg-warm" id="contact">
+    <div class="container contact-grid">
+      <div class="contact-info reveal-left">
+        <p class="section-eyebrow">Get In Touch</p>
+        <h2 class="section-title">Let's Find Your<br /><em>Choice</em></h2>
+        <p class="contact-desc">Indulge in comfort and uniwind in our beautifully designed rooms. Let our world-class services make your holiday truly special.</p>
+        <ul class="contact-details">
+          <li><i class="fa-solid fa-phone"></i> 7230090270/8441891348</li>
+          <li><i class="fa-solid fa-envelope"></i> hotelamritmanthan@gmail.com</li>
+          <li><i class="fa-solid fa-location-dot"></i> Nimbahera Rd,behind petrol pump,Madhuban Extension,Chittorgarh,Rajasthan</li>
+        </ul>
+        <div class="social-links">
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+      </div>
+      <div class="contact-form-wrap reveal-right">
+        <form class="contact-form glass" id="contactForm">
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Your full name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="your@email.com" required />
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="+1 (000) 000-0000" />
+          </div>
+          <div class="form-group">
+            <label for="interest">I'm interested in</label>
+            <select id="interest" name="interest">
+              <option value="">Select Room type</option>
+              <option value="villa">Standard Room</option>
+              <option value="penthouse">Premium Suite Room</option>
+              <option value="estate">Executive Room</option>
+              <option value="investment">Sarang Banquet</option>
+            </select>
+          </div>
+          <div class="form-group form-group--full">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4"
+              placeholder="Tell us about your dream property..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-dark btn-full" id="submitBtn">
+            <span>Send Message</span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+          <div class="form-success" id="formSuccess">
+            <i class="fa-solid fa-circle-check"></i>
+            <p>Thank you! We'll be in touch within 24 hours.</p>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- Map embed -->
+    <div class="map-wrap reveal">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.412417699244!2d74.62092597436433!3d24.849760145687473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39661fdbec8d73b7%3A0x820c86d809a3f66f!2sHotel%20Amrit%20Manthan!5e0!3m2!1sen!2sin!4v1779621142173!5m2!1sen!2sin"
+         width="100%" height="360" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade" title="Office Location"> </iframe>
+    </div>
+  </section>
+
+  <!-- ═══════════════ FOOTER ═══════════════ -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="nav-logo"><span class="logo-mark"><img src="assets/images/logo2.png" alt=""></span>AM</a>
+        <p>Experiencing the royal heritage of Chittorgarh with a unique blend of traditional warmth and modern luxury."</p>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="rooms.html">Rooms</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Properties</h4>
+        <ul>
+          <li><a href="#">Swimming pool</a></li>
+          <li><a href="#">Gym, Bar</a></li>
+          <li><a href="#">Private Estates</a></li>
+          <li><a href="#">Safety Lockers</a></li>
+          <li><a href="#">Parking</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul class="footer-contact">
+          <li><i class="fa-solid fa-phone"></i> 01472-242452/7230090270/8441891348</li>
+          <li><i class="fa-solid fa-envelope"></i> hotelamritmanthan@gmail.com</li>
+          <li><i class="fa-solid fa-location-dot"></i> Madhuban Extension,Chittorgarh</li>
+        </ul>
+        <div class="social-links footer-social">
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>Madhuban Extension,Chittorgarh</p>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fa-solid fa-chevron-up"></i>
+  </button>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <div class="lightbox__counter" id="lightboxCounter"></div>
+    <button class="lightbox__close" id="lightboxClose" aria-label="Close gallery">
+      <i class="fa-solid fa-xmark"></i>
+    </button>
+    <button class="lightbox__nav lightbox__nav--prev" id="lightboxPrev" aria-label="Previous image">
+      <i class="fa-solid fa-chevron-left"></i>
+    </button>
+    <div class="lightbox__content">
+      <img src="" alt="" id="lightboxImage" />
+      <p class="lightbox__caption" id="lightboxCaption"></p>
+    </div>
+    <button class="lightbox__nav lightbox__nav--next" id="lightboxNext" aria-label="Next image">
+      <i class="fa-solid fa-chevron-right"></i>
+    </button>
+  </div>
+
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
